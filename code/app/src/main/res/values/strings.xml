@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AttemptAtAutentification</string>
+    <string name="welcome_string">hello there, you come here often?</string>
+    <string name="title_activity_bottom_navigation_screen">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="screen_2">Because 7 8 9</string>
+    <string name="screen_1">Why was 6 afraid of 7?</string>
+    <string name="screen_3">there may be cool visuals but there are not</string>
+    <string name="screen_3_5">(Because 7 is a prime number and prime numbers can be intimidating)</string>
+    <string name="plus">+</string>
+    <string name="calendar">Календарь</string>
+    <string name="settings">Настройки</string>
+    <string name="graphs">Графики</string>
+    <string name="list">Список</string>
+    <string name="redline">редлайн</string>
+    <string name="deadline">дедлайн</string>
+    <string name="importance">важность</string>
+    <string name="category">категория</string>
+    <string name="save">Сохранить</string>
+    <string name="title">название</string>
+    <string name="password">пароль</string>
+    <string name="username">имя пользователя</string>
+    <string name="sign_in">Войти с помощью Google</string>
+    <string name="log_in">зарегистрироваться</string>
+    <string name="notes">описание</string>
+    <string name="importance_caption">важность</string>
+    <string name="date">дата</string>
+    <string name="subplans">подзадачи</string>
+    <string name="name_caption">название</string>
+    <string name="notes_caption">заметки</string>
+    <string name="deadline_caption">дедлайн</string>
+    <string name="date_caption">дата</string>
+    <string name="delete">удалить</string>
+    <string name="read">прочитать</string>
+    <string name="write">записать</string>
+    <string name="enter_saved">Войти в локальный аккаунт</string>
+    <string name="plans_in_category">планы в категории</string>
+    <string name="urgent">срочное</string>
+    <string name="not_urgent">не срочное</string>
+    <string name="not_important">не важное</string>
+    <string name="important">важное</string>
+    <string name="explanation">Перед вами матрица Эйзенхауэра!
+        Она делит ваши дела на категории в зависимости их срочности и важности. Для каждой категории существует совет по работе с задачами:
+    важное и срочное - сделать прямо сейчас
+    \nважное и не срочное - сделать, как только появится время
+    \nне важное и срочное - делегировать (если есть кому, конечно)
+    \nне важное и не срочное - забыть об их существовании</string>
+    <string name="putOff">перенос</string>
+    <string name="repeat">повторение</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="deleteLocal">очистить локально сохраненные данные</string>
+    <string name="google">Войти с помощью Google</string>
+</resources>

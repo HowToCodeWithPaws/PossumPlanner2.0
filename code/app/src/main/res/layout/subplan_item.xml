@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/items_in_rv">
+
+    <EditText
+        android:id="@+id/subplan_name"
+        android:layout_width="321dp"
+        android:layout_height="35dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subplan_delete"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:background="@drawable/rounded_buttons"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconGravity="textTop"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/subplan_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/subplan_checkBox"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/subplan_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attemptatautentification">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PossumPlanner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AttemptAtAutentification">
+
+        <activity android:name=".ui.settings.UserSettingsActivity"></activity>
+        <activity
+            android:name=".ui.categoryEdit.CategoryEditActivity"
+            android:label="Категория" />
+        <activity
+            android:name=".ui.settings.categories.SettingsCategoriesScreen"
+            android:label="Категории" />
+        <activity
+            android:name=".BottomNavigationScreen"
+            android:label="Navigation" />
+        <activity
+            android:name=".ui.deadlineEdit.DeadlineEditActivity"
+            android:label="План" />
+        <activity
+            android:name=".MainActivity"
+            android:label="PossumPlanner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
